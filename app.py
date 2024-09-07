@@ -18,7 +18,7 @@ st.sidebar.title("Navigation")
 option = st.sidebar.radio("Go to", ["Homepage", "Data Information", "Visualization", "Machine Learning Model"])
 
 # Load the dataset
-df=pd.read_csv ("C:\\Users\\Administrator\\OneDrive\\Desktop\\Loan default\\Loan_Default.csv")
+df=pd.read_csv ("C:\\Users\\Administrator\\OneDrive\\Desktop\\loan-default\\Loan_Default.csv")
 
 # Homepage
 if option == "Homepage":
